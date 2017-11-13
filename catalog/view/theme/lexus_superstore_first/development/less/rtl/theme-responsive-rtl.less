@@ -1,0 +1,104 @@
+@media (max-width: @screen-xs-max) {
+    .product-filter{
+        .display{            
+            span,a{
+                float: right;
+            }
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+	#topbar .show-mobile {
+		text-align: left;
+	}
+	#topbar .show-mobile .inner-toggle {
+		right: 0;
+		left: auto;
+		text-align:right;
+		li {
+		  margin-right: 20px;
+		  margin-left: 0;
+		}
+	}
+}
+@media (min-width: @screen-sm){
+    .comment-item > img {
+      float: right;
+      padding-left: 12px;
+      padding-right: 0 !important;
+    }
+}
+@media (max-width: @screen-sm-max) {
+    .show-mobile {
+        display: inline-block!important;
+        margin-right: 60px;
+        margin-left: 0!important;
+    }
+}
+@media (max-width: 767px) {
+	#header-main{
+        #cart{
+            .dropdown-menu{
+                left: -5px;
+            }
+        }
+    }
+	#topbar .show-mobile {
+		text-align: left;
+	}
+	#header-main .inner {
+		text-align: center;
+	}
+	#header-main .inner {
+		padding: 0 9px;
+	}
+	#topbar .show-mobile .inner-toggle {
+		right: 0;
+		left: auto;
+		text-align:right;
+		li {
+		  margin-right: 20px;
+		  margin-left: 0;
+		}
+	}
+  .comment-item > img {
+      padding: 0 !important;
+    }
+}
+@media (max-width: 320px){
+     #header-main{
+        #cart{
+            .dropdown-menu{
+                left: -25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px){
+	.button-close-menu {
+	    right: inherit;
+	    left: 0;
+	}
+	#search{
+        #search0{
+              .media-body {
+                  clear: both;
+                  text-align: right!important;
+                  margin-left: 0!important;
+                  margin-right: 20px;
+                }
+            }
+        }
+    }
+// }
+.offcanvas-menu {
+     left: inherit;
+     right: 0;
+}
+.offcanvas-effect-3.offcanvas-menu-open .offcanvas-pusher {
+    transform: translate3d(-300px, 0px, 0px);
+}
+.offcanvas-effect-3.offcanvas-menu {
+    transform: translate3d(100%, 0px, 0px);
+}

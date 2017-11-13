@@ -1,0 +1,5 @@
+2017-11-12 14:20:40 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
+2017-11-12 14:21:13 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
+2017-11-12 14:22:56 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
+2017-11-12 19:49:16 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\catalog101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320
+2017-11-12 19:49:26 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\catalog101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320

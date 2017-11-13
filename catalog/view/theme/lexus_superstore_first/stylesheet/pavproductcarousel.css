@@ -1,0 +1,9 @@
+.productcarousel .nav{
+	padding:0;
+	margin:0
+}	
+.productcarousel .tab-content, 
+.producttabs .box-product{
+	overflow:inherit
+}
+

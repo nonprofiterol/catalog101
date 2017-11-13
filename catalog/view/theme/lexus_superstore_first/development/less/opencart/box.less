@@ -1,0 +1,114 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+*******************************************************/
+// Center-align a block level element
+ 
+/* box */
+.box-outer {
+    margin: 0;
+}
+.box {
+    margin-bottom: @box-module-margin-bottom;   
+    .box-heading {
+        color: @white;
+        position: relative;                                                  
+        line-height: @box-module-heading-line-height;              
+        text-transform: @box-module-heading-transform;   
+        padding: @box-module-heading-padding;         
+        font-size: @box-module-heading-font-size; 
+        font-weight: 700;          
+        span{
+            
+        } 
+        &.icon{
+            .fa{
+                display: none;
+            }
+        }
+    }
+    .box-content {        
+        /*padding: @box-module-content-padding;*/
+        background-color: @box-module-content-bg;
+        border: @box-module-content-border;
+        .rounded-corners (@box-module-content-radius);
+        .product-grid{
+            border: 0;
+            padding: 0;
+        }
+    }
+    /* box styles */  
+    &.highlighted{
+        .box-heading {            
+            background-color: @theme-color; 
+            letter-spacing: 2px;
+            font-size: @font-size-base + 3;
+            font-weight: 600;  
+        }
+    }  
+    &.orange{
+        .box-heading {            
+            background-color: @box-module-heading-bg;   
+        }
+    }
+    &.dark{
+        .box-heading {            
+            background-color: @box-module-heading-bg;   
+        }
+    }
+    &.green{
+        .box-heading {            
+            background-color: @box-module-heading-bg;   
+        }
+    }
+    &.maroon{
+        .box-heading {            
+            background-color: @box-module-heading-bg;   
+        }
+    }
+    &.blue{
+        .box-heading {            
+            background-color: @box-heading-blue-bg;  
+        }
+    }
+    &.gray{
+        .box-heading {            
+            background-color: @box-module-heading-bg;   
+        }
+    }
+    &.pink{
+        .box-heading {            
+            background-color: @box-module-heading-bg;   
+        }
+    }
+    &.red {
+        .box-heading {            
+            background-color: @theme-color-secondary;
+        }      
+    } 
+    &.white {
+        .box-heading {
+            background-color: @white;
+            color: @black;
+            .shapes{
+                &.right{
+                    border-left-color: @border-color;
+                }
+            }
+            .line{
+                background-color: @border-color;
+            }
+        }              
+    }     
+
+    &.box-product{
+        .box-content{
+            padding-top: @box-product-padding;
+            padding-bottom: @box-product-padding;
+        }
+    }
+}
+

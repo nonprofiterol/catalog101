@@ -1,0 +1,17 @@
+.pav-megamenu .navbar-default .navbar-nav > .dropdown > a .caret:before {
+	top: -10px;
+}
+.panelbutton{
+	border: 1px solid #ddd;
+}
+.producttabs .nav-tabs > li.active > a, 
+.producttabs .nav-tabs > li > a:hover, 
+.producttabs .nav-tabs > li > a:focus,
+.product-related .box-heading span 
+{
+	border-top: 3px solid #7bbd42;
+}
+.content-top .box .box-heading span
+{
+	border-top: 3px solid #f05423;
+}

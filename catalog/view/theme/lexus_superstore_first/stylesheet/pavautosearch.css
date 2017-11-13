@@ -1,0 +1,50 @@
+
+.ui-widget-content{
+    background:#FFFFFF!important;
+}
+
+ul.ui-autocomplete  > li{
+    color: #2F2F2F;
+    cursor: pointer;
+    margin: 4px 0;
+    min-height: 15px;
+}
+ul.ui-autocomplete  > li {
+    text-align: left;
+    padding:5px;
+}
+ul.ui-autocomplete > li p {
+    text-align: justify;
+}
+
+ul.ui-autocomplete li.ui-menu-item{
+    border-width: 1px 0 0;
+    margin: 0;
+    min-height: 0;
+    padding: 0;
+}
+ul.ui-autocomplete ol {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+ul.ui-autocomplete ol .price {
+    color: #333333;
+    float: right;
+    font-size: 12px;
+    min-height: 10px;
+    margin-left: 8px;
+    text-align: right;
+}
+ul.ui-autocomplete ol .price-old {
+    color: #FF0000;
+    text-decoration: line-through;
+}
+ul.ui-autocomplete ol .price-new {
+    font-weight: bold;
+}
+ul.ui-autocomplete ol .price-tax {
+    color: #BBBBBB;
+    font-size: 12px;
+    font-weight: normal;
+}

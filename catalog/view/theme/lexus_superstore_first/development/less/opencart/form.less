@@ -1,0 +1,294 @@
+.form-control {  
+    .box-shadow(none);         
+    color: @input-color;
+    &:focus{
+      .box-shadow(none);
+    }    
+}
+
+textarea,select
+{
+	&.form-control{
+		padding: 6px;
+	}	
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"],
+textarea{
+	padding: 7px;		
+	margin-left: 0px;
+	margin-right: 0px;		
+	.rounded-corners(0px);		
+	.transition(all 0.15s linear 0s);
+}
+
+.tabs-group{
+	input[type="text"],
+	input[type="password"]{
+		height: 33px;
+		padding: 5px;
+
+	}
+}
+
+input, button, select, textarea{
+	padding: @padding-base-vertical;
+	border: 1px solid @border-color;
+	color: @input-color;	
+	outline: none;
+	&:hover,&:focus{
+		outline: none !important;
+	}
+}
+select{
+	padding: @padding-small-vertical;
+	border: none;
+	cursor: pointer;
+}
+input[type="image"]{
+	border: 0;
+}
+
+.btn-group {
+	.btn.dropdown-toggle.btn-theme-normal {
+		text-transform: initial;
+		padding: 4px;
+		&:hover,&:active,&:focus {
+			background-color: @white;
+			color: @topbar-color;
+			border-color: #dcdcdc;
+			.fa {
+				color: @topbar-color;
+			}
+		}
+	}
+}
+.btn{	
+	text-transform: uppercase;	
+	.transition(background-color 400ms linear);	
+	&.btn-theme-default{
+		text-align: center;	
+		background-color: @button-main-bg;
+		border: 1px solid #28313c;
+		color: @button-main-color;	
+		padding: @button-main-padding;
+		font-size: @button-main-font-size;
+		font-weight: @button-main-font-weight;
+		height: @button-addtocart-height;			
+		.rounded-corners(@button-main-rounded-corners);		
+		.size(auto,auto);
+		&:hover,&:active,&:focus {
+			border-color: @theme-color;
+			background-color: @theme-color;
+		}
+		&.btn-small{
+			height: 27px;
+			line-height: 27px;			
+			min-height: 20px;
+			padding-top: 0px;
+			.rounded-corners(3px);	
+		}
+	}
+	&.btn-danger{
+		margin: 10px;
+	}
+	&.btn-theme-normal{
+		background-color: @button-normal-bg;
+		color: @button-normal-color;
+		border: @button-normal-border;
+		font-size: @button-normal-font-size;
+		padding-top: @button-normal-padding;
+		padding-bottom: @button-normal-padding;
+		.rounded-corners(@button-normal-border-radius);				
+		.fa{
+			color: @button-normal-icon-color;
+		}	
+		&:hover,&:focus{
+			color: @button-normal-hover-color;
+			border-color: @theme-color;
+			.fa{
+				color: @button-normal-icon-hover-color;
+			}
+		}			
+	}
+	&.btn-shopping-cart {
+		padding: @button-addtocart-padding;
+		background-color: @button-addtocart-bg;
+		color: @button-addtocart-color;
+		font-size: @button-addtocart-font-size;	
+		border: @button-addtocart-border;		
+		height: @button-addtocart-height;
+		.rounded-corners(@button-normal-border-radius);	
+		span{
+			
+		}
+		&:hover,&:focus{
+			border: @button-addtocart-border-2;
+		}
+		> *{
+			float: left;
+		}
+	}
+	
+	&.blue{
+		background-color: @theme-color;
+		border: 0;
+		color: @white;
+		.transition(all 0s ease 0s);
+		span + span{
+			border: 0;
+			padding: @button-addtocart-padding;
+			font-size: @font-size-base - 1;
+		}
+		.fa{
+			.size(32px,32px);
+			font-size: @font-size-base + 1;
+			line-height: 32px;
+			background-color: darken(@theme-color, 6%);
+		}
+		&:hover,&:focus{
+			background-color: @theme-color-tertiary;
+			color: @white;
+			.fa{
+				background-color: darken(@theme-color-tertiary, 6%);
+			}
+		}
+	}
+	/*&:hover,&:focus{
+		color: @white;
+		outline: none;
+		.box-shadow(none);
+		background-color: @button-main-bg-hover;
+			-webkit-transform-origin: 0 0;
+			transform-origin: 0 0;
+			-webkit-transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+			transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+	}*/
+}
+
+input{
+	&.button{
+		background-color: @button-main-bg;
+		color: @button-main-color;	
+		padding: @button-main-padding;
+		font-size: @button-main-font-size;
+		font-weight: @button-main-font-weight;
+		text-align: center;	
+		text-transform: uppercase;	
+		border: 1px solid #28313c;
+		.rounded-corners(@button-main-rounded-corners);		
+		&:hover,&:focus{
+			color: @white;
+			outline: none;
+			.box-shadow(none);
+			border: 1px solid #71ac3e;
+		}
+	}
+}
+
+.control-label{
+	padding-top: 7px;
+	color: @label-control-color;
+	font-size: @label-control-font-size;	
+	font-weight: @label-control-font-weight;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+	/*margin-top: 0;*/
+}
+
+ #search{
+    margin-top: 35px;   
+    .fa-caret-down{
+        color: @search-icon-color;
+        cursor: pointer;
+        &:hover {
+            color: @boulder;
+        }
+    } 
+    .button-search{      
+        color: @search-icon-color;
+        background-color: transparent;
+        border: none;
+        font-size: @search-icon-font-size; 
+        position: absolute;
+        right: 10px;  
+        top: 3px;      
+    }  
+    .input-search{
+        font-size: @search-font-size - 2;
+        border: 1px solid @border-color;
+        height: @search-min-height - 2;
+        background-color: @search-bg-color;         
+        font-style: @search-font-style; 
+        font-family: @font-family-secondary;  
+        &:hover,&:focus{
+            outline: none;
+        }
+    } 
+    .search-auto {        
+        .search {
+        	position: relative;        	
+        }
+        @media (min-width: @screen-md-max) {
+	        .search {
+	        	width: 65%;
+	        }  
+        }  
+    }
+    .input-group{
+        width: 100%;
+    }
+    .category_filter {
+        position: relative;
+        border-color: @border-color;
+        border-style: solid;
+        border-width: 1px 0 1px 1px;
+        select {
+            .size(auto;34px);
+            font-size: 13px;
+            color: @tundora;
+            padding: 8px;
+            background-color: @search-button-bg;
+            .appearance (none);
+            border: none;
+        } 
+        span {
+            background-color: #F9F9F9;
+            .size(30px;34px);
+            position: absolute;
+            right: 0;
+            top: 0;
+            line-height: 36px;
+            padding: 0 10px;
+            pointer-events: none;
+        }
+    }  
+}	
+// autosearch
+.autosearch{
+    min-width: 300px;
+    > li {
+        border-bottom: 1px solid #ddd;
+        margin-left: 0;
+        > a{
+            float: left;
+            font-weight: 600;
+            &:hover,&:focus {
+                background-color: transparent;
+            }
+        }
+    }
+    .media-body {
+        padding: 20px 0;
+        float: left;        
+    }
+} 
