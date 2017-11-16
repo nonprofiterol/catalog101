@@ -3,3 +3,50 @@
 2017-11-12 14:22:56 - Export/Import: Worksheet 'Categories' uses category_id '17' in the wrong order. Ascending order expected!
 2017-11-12 19:49:16 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\catalog101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320
 2017-11-12 19:49:26 - PHP Notice:  Undefined variable: site_key in C:\wamp64\www\catalog101\catalog\view\theme\lexus_superstore_first\template\product\product_detail_hitech.tpl on line 320
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:46:29 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:46:29 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:46:29 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:46:29 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:46:58 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:46:58 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:46:58 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:46:58 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:49:07 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:49:07 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:49:07 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:49:07 - Export/Import: Missing customer_groups in worksheet 'Rewards'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '28' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '30' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '31' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '34' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '40' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '41' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '42' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '45' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '47' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '48' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Worksheet 'AdditionalImages' cannot use product_id '49' because it is not listed in worksheet 'Products'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'Specials'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'Discounts'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'Rewards'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'ProductOptions'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'ProductOptionValues'!
+2017-11-16 20:50:06 - Export/Import: Missing product_ids in worksheet 'ProductAttributes'!
+2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Specials'!
+2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Discounts'!
+2017-11-16 20:50:06 - Export/Import: Missing customer_groups in worksheet 'Rewards'!

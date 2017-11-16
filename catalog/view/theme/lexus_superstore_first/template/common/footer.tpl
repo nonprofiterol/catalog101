@@ -49,6 +49,7 @@
     require( ThemeControlHelper::getLayoutPath( 'common/block-footcols.tpl' ) );
   ?>
   <?php if( count($modules) <=0 ) { ?>
+ <!--
   <div class="footer-link">
     <div class="container">
         <div class="row">
@@ -70,8 +71,8 @@
               <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
               <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
               <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-              <!-- <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-              <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li> -->
+              <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
+              <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li> 
             </ul>
           </div>
           <div class="col-md-3 col-sm-6 col-xs-12">
@@ -95,6 +96,7 @@
         </div>
       </div>
     </div>
+  -->
   <?php } ?> 
 
   <?php

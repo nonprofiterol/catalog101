@@ -3852,12 +3852,12 @@ body[class*="-home"] .information {
 }
 /* line 335, opencart\opencart-pages.less */
 .product-meta {
-  min-height: 110px;
+  min-height: 78px;
 }
 @media (min-width: 991px) {
   /* line 337, opencart\opencart-pages.less */
   .product-meta {
-    padding: 20px;
+    padding: 5px;
   }
 }
 /* line 342, opencart\opencart-pages.less */

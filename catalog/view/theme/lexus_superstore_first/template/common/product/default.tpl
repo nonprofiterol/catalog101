@@ -31,7 +31,7 @@
 			<?php if( isset($product['description']) ){ ?> 
 				<div class="description" itemprop="description"><?php echo utf8_substr( strip_tags($product['description']),0,220);?>...</div>
 			<?php } ?>
-<!--			<?php if ($product['price']) { ?>
+			<?php if ($product['price']) { ?>
 			<div class="price" itemtype="http://schema.org/Offer" itemscope itemprop="offers">
 				<?php if (!$product['special']) {  ?>
 					<span class="special-price"><?php echo $product['price']; ?></span>
@@ -48,7 +48,7 @@
 				<meta content="<?php // echo $this->currency->getCode(); ?>" itemprop="priceCurrency">
 			</div>
 			<?php } ?>
-
+<!--
 			<?php if ( isset($product['rating']) ) { ?>
 	          <div class="rating">
 	            <?php for ($is = 1; $is <= 5; $is++) { ?>
@@ -64,14 +64,14 @@
 -->
 		</div>
 
-		<div class="action"> 				     
+<!--		<div class="action"> 				     
 
 		    <?php if( !isset($listingConfig['catalog_mode']) || !$listingConfig['catalog_mode'] ) { ?>
 				<div class="cart">
 					<button data-loading-text="Loading..." type="button" value="<?php echo $button_cart; ?>" onclick="cart.add('<?php echo $product['product_id']; ?>');" class="btn btn-shopping-cart"><?php echo $button_cart; ?></button>		
 				</div>
 			<?php } ?>
-<!--
+
 		    <div class="button-group">
 		    	<div class="wishlist">					
 					<a class="fa fa-heart product-icon" data-toggle="tooltip" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product['product_id']; ?>');"><span><?php echo $button_wishlist; ?></span></a>	
@@ -80,9 +80,9 @@
 					<a class="fa fa-refresh product-icon" data-toggle="tooltip" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product['product_id']; ?>');"><span><?php echo $button_compare; ?></span></a>	
 				</div>								
 			</div>
--->
+
 		</div>
-		
+-->		
 
 	</div>
 
